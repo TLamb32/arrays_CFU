@@ -15,3 +15,8 @@ numbers.unshift "false"
 # Unshift should place this new false element at the beginning of the array
 
 # Index positions are the numerical order of the elements of an array. However, in ruby and other languages, we start counting at 0. For example, in the positions array, 1 is at index position 0, and 4 is at index poition 3. Using this, we are able to access one element of an array by calling it `positions[0]` will call 1.
+
+letters = [a, b, c, d, e, f, g]
+letters.drop c 
+
+# .drop will remove the elements a, b, c from the array and generate a new array with the remaining elements
